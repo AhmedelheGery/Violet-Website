@@ -3,7 +3,7 @@
   font-family: 'Neo Sans Arabic Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('Neo Sans Arabic Regular'), url('/assets/fonts/Neo Sans Arabic Regular.ttf');
+  src: local('Neo Sans Arabic Regular'), url('../fonts/Neo Sans Arabic Regular.ttf');
   }
   
 
@@ -11,7 +11,7 @@
   font-family: 'Neo Sans Arabic Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('Neo Sans Arabic Regular'), url('/assets/fonts/NeoSansArabic.ttf');
+  src: local('Neo Sans Arabic Regular'), url('../fonts/NeoSansArabic.ttf');
   }
   
 
@@ -19,7 +19,7 @@
   font-family: 'Neo Sans Arabic Light';
   font-style: normal;
   font-weight: normal;
-  src: local('Neo Sans Arabic Light'), url('/assets/fonts/NeoSansArabicLight.ttf');
+  src: local('Neo Sans Arabic Light'), url('../fonts/NeoSansArabicLight.ttf');
   }
   
 
@@ -27,7 +27,7 @@
   font-family: 'Neo Sans Arabic Medium';
   font-style: normal;
   font-weight: normal;
-  src: local('Neo Sans Arabic Medium'), url('/assets/fonts/NeoSansArabicMedium.ttf');
+  src: local('Neo Sans Arabic Medium'), url('../fonts/NeoSansArabicMedium.ttf');
   }
   
 
@@ -35,7 +35,7 @@
   font-family: 'Neo Sans Arabic Bold';
   font-style: normal;
   font-weight: normal;
-  src: local('Neo Sans Arabic Bold'), url('/assets/fonts/NeoSansArabicBold.ttf');
+  src: local('Neo Sans Arabic Bold'), url('../fonts/NeoSansArabicBold.ttf');
   }
   
 
@@ -43,7 +43,7 @@
   font-family: 'Neo Sans Arabic Black';
   font-style: normal;
   font-weight: normal;
-  src: local('Neo Sans Arabic Black'), url('/assets/fonts/NeoSansArabicBlack.ttf');
+  src: local('Neo Sans Arabic Black'), url('../fonts/NeoSansArabicBlack.ttf');
   }
   
 
@@ -51,7 +51,7 @@
   font-family: 'Neo Sans Arabic Ultra';
   font-style: normal;
   font-weight: normal;
-  src: local('Neo Sans Arabic Ultra'), url('/assets/fonts/NeoSansArabicUltra.ttf');
+  src: local('Neo Sans Arabic Ultra'), url('../fonts/NeoSansArabicUltra.ttf');
   }
   
 
@@ -59,7 +59,7 @@
   font-family: 'Neo Sans Medium';
   font-style: normal;
   font-weight: normal;
-  src: local('Neo Sans Medium'), url('/assets/fonts/Neo_Sans_Medium.ttf');
+  src: local('Neo Sans Medium'), url('../fonts/Neo_Sans_Medium.ttf');
   }
 /*--------------------------------------------------------------
 # General
