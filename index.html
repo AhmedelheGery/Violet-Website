@@ -53,7 +53,7 @@
           align-items-center
         "
       >
-        <nav class="nav-menu d-none d-lg-block">
+        <nav class="nav-menu d-block">
           <ul class="switch-locale">
             <li>
               <a
@@ -82,10 +82,10 @@
     </header>
     <!-- ======= Hero Section ======= -->
     <section id="hero-home" class="hero py-0">
-      <div class="header-img-1">
+      <div class="header-img-1 d-none d-md-block">
         <img src="./assets/img/header-img-1.svg" alt="" />
       </div>
-      <div class="header-img-3">
+      <div class="header-img-3 d-none d-md-block">
         <img src="./assets/img/header-img-3.svg" alt="" />
       </div>
       <div class="container">
@@ -95,7 +95,11 @@
           data-aos-delay="100"
         >
           <div class="img">
-            <img src="./assets/img/header-img-2.svg" alt="" />
+            <img
+              class="d-none d-md-inline-block"
+              src="./assets/img/header-img-2.svg"
+              alt=""
+            />
           </div>
           <div class="info redirect-rtl redirect-right">
             <h2>حجزك صار اسهل</h2>
