@@ -663,22 +663,38 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+  #header {
+    padding: 0;
+  }
+  #hero-home .social-btns {
+    display: block !important;
+  }
+  #hero-home .social-btns .btn {
+    margin-bottom: 1rem;
+  }
   #hero-home {
     display: block;
-    height: 70vh;
-    font-size: 0.8rem;
+    height: 550px;
+    font-size: 0.7rem;
   }
   #hero-home .hero-content {
     position: absolute;
     top: 50px;
   }
+  #hero-home .hero-content .info {
+    margin: 0;
+  }
   #hero-home .join-us {
+    display: block;
+    padding: 0.5rem;
+    width: 100%;
     position: absolute;
-    top: 340px;
     left: 50%;
     bottom: 0;
     transform: translate(-50%, -50%);
-    margin-right: 30px;
+  }
+  #hero-home .join-us .btn {
+    margin-top: 2rem;
   }
 }
 
@@ -687,6 +703,19 @@ a:hover {
 ---------------------------------------------------------*/
 .about-home {
   padding: 60px 0;
+}
+
+@media (max-width: 768px) {
+  #header .logo img {
+    width: 70%;
+  }
+  #header .logo a {
+    font-size: 1rem !important;
+  }
+  .about-home {
+    padding: 0;
+    padding-bottom: 30px;
+  }
 }
 
 .about-home .content {
@@ -792,6 +821,37 @@ a:hover {
 }
 #footer .icon {
   font-size: 1.3rem;
+}
+
+/* Responsive Mobile  */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem !important;
+  }
+  h2 {
+    font-size: 1.8rem !important;
+  }
+  h3 {
+    font-size: 1.3rem !important;
+  }
+  p,
+  span {
+    font-size: 0.7rem !important;
+  }
+  #hero-home a,
+  #footer a {
+    font-size: 0.9rem;
+  }
+  #footer .container div {
+    margin: 1rem 0;
+  }
+  #footer .container .links {
+    display: flex;
+    flex-direction: column;
+  }
+  #footer .container .links a {
+    margin-bottom: 1rem;
+  }
 }
 
 /* NOT a Robot Start */
