@@ -575,6 +575,10 @@ background-color: #CAAFBE;
   margin-bottom: 0;
   color: #ccc;
   font-size: 0.7rem;
+  width: 90%;
+}
+#hero-home .join-us .btn {
+  white-space: nowrap;
 }
 
 @media (max-width: 992px) {
@@ -713,7 +717,7 @@ background-color: #CAAFBE;
   align-items: center;
   background-color: #fff;
   border-radius: 10px;
-  padding: 4%;
+  padding: 4% 3%;
   margin-bottom: 1rem;
 }
 .advantages-home .box .icon-wrapper{
@@ -723,7 +727,7 @@ background-color: #CAAFBE;
   text-align: center;
   background-color: #F9EAF4;
   border-radius: 15px;
-  margin-left: 1.5rem;
+  margin: 0 1.3rem;
 }
 .advantages-home .box .icon-wrapper img{
   width: 45%;

@@ -16,6 +16,8 @@
     });
 
     $("#handleRTL").click(function () {
+      $('.en-btn-wrapper').show();
+      $('.ar-btn-wrapper').hide();
       $(".redirect-right").css("text-align", "right");
       $(".redirect-rtl").css("direction", "rtl");
       // handle form rtl
@@ -28,12 +30,15 @@
       $('input[name="phone_number"]').attr("placeholder", "رقم الهاتف");
     });
     $("#handleLTR").click(function () {
+    $('.ar-btn-wrapper').show();
+    $('.en-btn-wrapper').hide();
       $(".redirect-right").css("text-align", "left");
       $(".redirect-rtl").css("direction", "ltr");
     });
 
   // Preloader
   $(window).on('load', function() {
+    $('.ar-btn-wrapper').hide();
     if ($('#preloader').length) {
       $('#preloader').delay(100).fadeOut('slow', function() {
         $(this).remove();
