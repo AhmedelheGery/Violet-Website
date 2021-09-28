@@ -576,13 +576,13 @@ a:hover {
 
 #hero-home .join-us {
   position: absolute;
-  bottom: -10%;
+  bottom: -6%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   background-image: linear-gradient(
     to top,
@@ -592,7 +592,7 @@ a:hover {
     #80486c,
     #93537c
   );
-  border-radius: 15px;
+  border-radius: 20px;
   padding: 2%;
 }
 #hero-home .join-us .title {
@@ -603,7 +603,6 @@ a:hover {
   margin-bottom: 0;
   color: #ccc;
   font-size: 0.7rem;
-  width: 90%;
 }
 #hero-home .join-us .btn {
   white-space: nowrap;
