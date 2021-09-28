@@ -90,7 +90,7 @@
   // Mobile Navigation
   if ($('.nav-menu').length) {
     var $mobile_nav = $('.nav-menu').clone().prop({
-      class: 'mobile-nav d-lg-none'
+      class: 'mobile-nav d-none'
     });
     $('body').append($mobile_nav);
     $('body').prepend('<button type="button" class="mobile-nav-toggle d-none"><i class="icofont-navigation-menu"></i></button>');
