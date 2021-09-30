@@ -18,6 +18,8 @@
     $("#handleRTL").click(function () {
       $('.en-btn-wrapper').show();
       $('.ar-btn-wrapper').hide();
+      $('.links-ar').show();
+      $('.links-en').hide();
       $(".redirect-right").css("text-align", "right");
       $(".redirect-rtl").css("direction", "rtl");
       // handle form rtl
@@ -32,6 +34,8 @@
     $("#handleLTR").click(function () {
     $('.ar-btn-wrapper').show();
     $('.en-btn-wrapper').hide();
+    $('.links-en').show();
+    $('.links-ar').hide();
       $(".redirect-right").css("text-align", "left");
       $(".redirect-rtl").css("direction", "ltr");
     });
@@ -39,6 +43,7 @@
   // Preloader
   $(window).on('load', function() {
     $('.ar-btn-wrapper').hide();
+    $('.links-en').hide();
     if ($('#preloader').length) {
       $('#preloader').delay(100).fadeOut('slow', function() {
         $(this).remove();

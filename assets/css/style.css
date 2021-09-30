@@ -815,6 +815,7 @@ a:hover {
   color: #ccc;
   font-size: 14px;
   text-align: center;
+  overflow: hidden;
 }
 #footer a {
   color: #ccc;
@@ -842,14 +843,14 @@ a:hover {
   #footer a {
     font-size: 0.9rem;
   }
-  #footer .container div {
+  #footer .footer-items div {
     margin: 1rem 0;
   }
-  #footer .container .links {
+  #footer .footer-items .links {
     display: flex;
     flex-direction: column;
   }
-  #footer .container .links a {
+  #footer .footer-items .links a {
     margin-bottom: 1rem;
   }
 }
